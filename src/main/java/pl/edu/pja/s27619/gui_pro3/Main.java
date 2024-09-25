@@ -102,7 +102,6 @@ public class Main extends Application {
         toolBar.getItems().add(button2);
 
         //button3 for tools bar to set time "60" sec
-
         ToggleButton button3 = new ToggleButton();
         button3.setLayoutX(80);
         button3.setLayoutY(12);
@@ -156,7 +155,7 @@ public class Main extends Application {
 
         pane.getChildren().add(toolBar);
 
-        //combobox to select language
+        //combobox to select languages
         ComboBox<String> comboBox = new ComboBox<>();
         comboBox.setLayoutX(411);
         comboBox.setLayoutY(196);
@@ -393,7 +392,7 @@ public class Main extends Application {
             typingController.handleButtonPressed(oldValue, newValue);
         });
 
-        primaryStage.setTitle("TypingClub");
+        primaryStage.setTitle("TypingGame");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
