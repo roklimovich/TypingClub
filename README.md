@@ -1,7 +1,6 @@
 ## Project Title
 Monkeytype-style Typing Efficiency Application
 
----
 
 ## Description
 This project is a single-window JavaFX application designed to evaluate fast and accurate typing efficiency,
@@ -12,7 +11,6 @@ with a dynamically generated word list based on the user's language selection.
 The project adheres to the **Model-View-Controller (MVC)** architecture and includes no **FXML** or **WYSIWYG** tools.
 Additionally, it ensures the application scales smoothly across different window sizes and handles errors gracefully.
 
----
 
 ## Features
 * **Multiple Language Support:** The application dynamically loads a list of languages based on text files provided in the 
@@ -41,7 +39,6 @@ Additionally, it ensures the application scales smoothly across different window
 * **Test Report:** After each test, a file is generated in the project directory with a breakdown of each word and its 
 corresponding WPM.
 
----
 
 ## Installation
 1. Clone or download the repository.
@@ -50,21 +47,18 @@ language. Each file should be named based on the language it represents.
 3. Compile the project using a Java Development Kit (JDK) that supports JavaFX.
 4. Launch the application via your preferred method (command line or IDE).
 
----
 
 ## Requirements
 * **JavaFX** framework
 * **Java Development Kit (JDK) 11** or higher
 * **No FXML or Scene Builder** 
 
----
 
 ## How to Run
 1. Open the project in an IDE like IntelliJ IDEA or Eclipse.
 2. Ensure JavaFX is properly configured.
 3. Run the main class to start the application.
 
----
 
 ## Usage
 1. Select a language from the top menu (based on available language files in the ``dictionary`` folder).
@@ -73,13 +67,12 @@ language. Each file should be named based on the language it represents.
 4. After the test, view your WPM and detailed statistics.
 5. To restart or pause the test, use the keyboard shortcuts mentioned above.
 
----
 
 ## License
 This project is for educational purposes and is subject to academic integrity rules. 
 Plagiarism will result in disciplinary action.
 
----
+
 
 ## Author
 Roman Klimovich
