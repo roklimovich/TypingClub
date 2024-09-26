@@ -1,6 +1,6 @@
 ## Project Title
 
-Monkeytype-style Typing Efficiency Application
+TypingClub
 
 ## Description
 
